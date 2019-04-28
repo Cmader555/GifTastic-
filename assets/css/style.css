@@ -1,0 +1,26 @@
+body {
+    background-image: url(../../assets/images/Sports.png); 
+    font-family: 'Maven Pro', sans-serif;
+}
+h1 {
+    font-weight: 200; 
+} 
+
+#team-input {
+    margin: 1rem;
+    margin-top: 2rem;
+}
+#add-team {
+    margin: 1rem;
+    margin-top: .25rem;
+    margin-bottom: 2rem;
+}
+
+.teamButton {
+    margin: 1rem; 
+}
+
+
+img {
+    display: inline; 
+}
