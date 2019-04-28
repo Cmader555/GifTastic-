@@ -61,7 +61,7 @@ function gifGenerator() {
             gif.attr("other", response.data[i].images.original.url); 
             
             $("#gifs").append(gif);
-            var rating = $(`<p> Rating: ${response.data[i].rating} </p>`);
+            var rating = $(`<p class="text-danger"> Rating: ${response.data[i].rating} </p>`);
             $("#gifs").append(rating);
 
         };
