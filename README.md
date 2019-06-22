@@ -1,14 +1,14 @@
 ### GifTastic
 
-* This is a simple Letter Guessing Game made to show off my javascript skills 
+* Gif generating app to show case my javascript skills, and my ability to work with APIs 
   
-* You have 5 chances to guess the correct random letter by clicking on a key on your keyboard
+* Click on your favorite sports team to display gifs related to them
 
-* If you guess the correct letter, or you run out of guesses the game informs you if you have won, or lost and the game resets
+* Add your favorite sports team
 
-* Open the console if you want to see the letter you are guessing
+* Click a gif to stop and start it
 
-* Game Link: https://cmader555.github.io/Letter-Guess-Game/
+* Game Link: https://cmader555.github.io/GifTastic-/
 
 ## Installation 
 
@@ -16,5 +16,5 @@
 
 ## Preview 
 
-![Basic Portfolio](assets/images/simpsonLetterGame.png)
+![Basic Portfolio](assets/images/gifs.png)
 

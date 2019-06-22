@@ -24,7 +24,7 @@ function generateButton() {
 };
 
 
-
+//adds a gif generating button
 $("#add-team").on("click", function (event) {
     event.preventDefault();
 
@@ -36,7 +36,7 @@ $("#add-team").on("click", function (event) {
 
 });
 
-
+// function to generate gifs
 function gifGenerator() {
 
 
@@ -54,6 +54,7 @@ function gifGenerator() {
         
         console.log(response.data)
         $("#gifs").empty(); 
+        //loops over response and appends gifs to associated div
         for (i = 0; i < response.data.length; i++) {
 
             var gif = $("<img>").attr("src", response.data[i].images.original_still.url);
@@ -72,7 +73,7 @@ function gifGenerator() {
 
 };
 
-
+//allows user to play and stop gifs
 $(document).on("click", ".gif",function () {
 
     var source = $(this).attr("src"); 
